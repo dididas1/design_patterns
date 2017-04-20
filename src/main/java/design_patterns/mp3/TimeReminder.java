@@ -19,11 +19,7 @@ public class TimeReminder{
 		//	Calendar cal = Calendar.getInstance();]
 		//	int hour = cal.get(Calendar.HOUR_OF_DAY);
 		m= new Mp3();
-
-
 		int hour = tProv.getTime();
-
-
 		if(hour >=22){
 			m.playSong();
 		}
